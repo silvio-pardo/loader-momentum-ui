@@ -1,6 +1,6 @@
 {
   "name": "loader-momentum-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "loader widget for cisco momentum-ui",
   "author": "silvio-pardo",
   "license": "MIT",
@@ -18,7 +18,9 @@
     "lint": "eslint ."
   },
   "peerDependencies": {
-    "react": "^17.0.2"
+    "react": "^17.0.2",
+    "@momentum-ui/core": "^19.15.19",
+    "rxjs": "^7.5.5"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
@@ -54,9 +56,5 @@
   },
   "files": [
     "dist"
-  ],
-  "dependencies": {
-    "@momentum-ui/core": "^19.15.19",
-    "rxjs": "^7.5.5"
-  }
+  ]
 }
